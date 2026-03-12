@@ -14,6 +14,15 @@ Instead, it helps two people coordinate a support session where the recipient mu
 
 ## Run
 
+### Windows one-click bootstrap (auto-installs Python if missing)
+
+Double-click `Main.bat`.
+
+- If Python + Tkinter are missing, the launcher tries to install Python 3.12 using `winget`.
+- After installation, it launches `app.py` automatically.
+
+### Manual run
+
 ```bash
 python3 app.py
 ```
